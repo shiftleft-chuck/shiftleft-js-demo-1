@@ -1,10 +1,9 @@
 ---
 # This workflow integrates ShiftLeft NG SAST with GitHub
 # Visit https://docs.shiftleft.io for help
-name: ShiftLeft
+name: Scan Action with ShiftLeft
 
 on:
-  pull_request:
   workflow_dispatch:
 
 jobs:
